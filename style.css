@@ -1,0 +1,14 @@
+.gameBoard {
+    display: flex;
+    align-content: center;
+    line-height: 0;
+}
+
+.zero, .one, .two, .three, .four {
+    flex: 1;
+}
+
+.inventory {
+    display: flex;
+    flex-direction: row;
+}
