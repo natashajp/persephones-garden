@@ -1,3 +1,5 @@
+//Create garden
+
 const tile0 = document.getElementsByClassName('zero');
 
 for (let i = 0; i < tile0.length; i++) {
@@ -39,6 +41,8 @@ for (let i = 0; i < tile3.length; i++) {
     tile3[i].appendChild(grass3);
 }
 
+//Create inventory
+
 const hoe = document.querySelector('.hoe')
 
 const hoeIcon = document.createElement('img');
@@ -78,3 +82,6 @@ sickleIcon.src = 'assets/sickle.png';
 sickleIcon.setAttribute('width', '48');
 sickleIcon.setAttribute('height', '48');
 sickle.appendChild(sickleIcon);
+
+//Create farming actions
+
