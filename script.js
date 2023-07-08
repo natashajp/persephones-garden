@@ -83,5 +83,58 @@ sickleIcon.setAttribute('width', '48');
 sickleIcon.setAttribute('height', '48');
 sickle.appendChild(sickleIcon);
 
+//Create intermediary soil tiles
+
+const soilIcon = document.createElement('img');
+soilIcon.src = 'assets/soil.png';
+soilIcon.setAttribute('width', '64');
+soilIcon.setAttribute('height', '64');
+
+const sownSeeds = document.createElement('img');
+sownSeeds.src = 'assets/soil.png';
+sownSeeds.setAttribute('width', '64');
+sownSeeds.setAttribute('height', '64');
+
+const wetSoilIcon = document.createElement('img');
+wetSoilIcon.src = 'assets/soil.png';
+wetSoilIcon.setAttribute('width', '64');
+wetSoilIcon.setAttribute('height', '64');
+
+//Create flower tiles
+
+const blueFlower = document.createElement('img');
+blueFlower.src = 'assets/blue_flower.png';
+blueFlower.setAttribute('width', '64');
+blueFlower.setAttribute('height', '64');
+blueFlower.className = "zero";
+
+const pinkFlower = document.createElement('img');
+pinkFlower.src = 'assets/pink_flower.png';
+pinkFlower.setAttribute('width', '64');
+pinkFlower.setAttribute('height', '64');
+pinkFlower.className = "one";
+
+const purpleFlower = document.createElement('img');
+purpleFlower.src = 'assets/purple_flower.png';
+purpleFlower.setAttribute('width', '64');
+purpleFlower.setAttribute('height', '64');
+purpleFlower.className = "two";
+
+const yellowFlower = document.createElement('img');
+yellowFlower.src = 'assets/yellow_flower.png';
+yellowFlower.setAttribute('width', '64');
+yellowFlower.setAttribute('height', '64');
+yellowFlower.className = "three";
+
 //Create farming actions
+
+//Create universal grass DOM element
+
+const grassTile = document.querySelectorAll(".grass");
+
+//Hoeing the land
+
+// hoe.addEventListener('click' , function() {
+//     hoe.replaceChild(yellowFlower, hoe.childNodes[0])
+// });
 
