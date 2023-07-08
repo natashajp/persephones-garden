@@ -596,3 +596,80 @@ indvTile35.addEventListener('click', function() {
             indvTile35.src = 'assets/pink_flower.png'
     }
 })
+
+
+//Create mushroom action
+
+
+//Create gameBoard array
+
+
+gameBoard = [indvTile0, indvTile1, indvTile2, indvTile3, indvTile4, indvTile5,
+indvTile6, indvTile7, indvTile8, indvTile9, indvTile10, indvTile11,
+indvTile12, indvTile13, indvTile14, indvTile15, indvTile16, indvTile17,
+indvTile18, indvTile19, indvTile20, indvTile21, indvTile22, indvTile23,
+indvTile24, indvTile25, indvTile26, indvTile27, indvTile28, indvTile29,
+indvTile30, indvTile31, indvTile32, indvTile33, indvTile34, indvTile35]
+
+
+//Create mushroom spawn opportunity
+
+const mushroomAggro = .7;
+
+const mushroomOpportunity = function() {
+    if (Math.random() < mushroomAggro) {
+        gameBoard[(Math.floor(Math.random() * gameBoard.length))].src = 'assets/mushroom.png';
+    } else {
+        console.log("Spawn opportunity missed.")
+    }
+}
+
+setInterval(mushroomOpportunity, 4000)
+
+// function test() {
+//     console.log("Anybody home?")
+// }
+
+// console.log(test())
+
+// indvTile0
+// indvTile1
+// indvTile2
+// indvTile3
+// indvTile4
+// indvTile5
+
+// indvTile6
+// indvTile7
+// indvTile8
+// indvTile9
+// indvTile10
+// indvTile11
+
+// indvTile12
+// indvTile13
+// indvTile14
+// indvTile15
+// indvTile16
+// indvTile17
+
+// indvTile18
+// indvTile19
+// indvTile20 
+// indvTile21
+// indvTile22
+// indvTile23
+
+// indvTile24
+// indvTile25
+// indvTile26
+// indvTile27
+// indvTile28
+// indvTile29
+
+// indvTile30
+// indvTile31
+// indvTile32
+// indvTile33
+// indvTile34
+// indvTile35
