@@ -98,31 +98,31 @@ let toolMode;
 
 hoe.addEventListener('click' , function() {
     toolMode = 0;
-    // console.log("Tool mode is set to 'Hoe' (0).")
+    window.alert("Tool selected: gardening hoe");
     console.log(toolMode);
 });
 
 seeds.addEventListener('click' , function() {
     toolMode = 1;
-    // console.log("Tool mode is set to 'Hoe' (0).")
+    window.alert("Tool selected: flower seeds");
     console.log(toolMode);
 });
 
 can.addEventListener('click' , function() {
     toolMode = 2;
-    // console.log("Tool mode is set to 'Hoe' (0).")
+    window.alert("Tool selected: watering can");
     console.log(toolMode);
 });
 
 pesticide.addEventListener('click' , function() {
     toolMode = 3;
-    // console.log("Tool mode is set to 'Hoe' (0).")
+    window.alert("Tool selected: pesticide");
     console.log(toolMode);
 });
 
 sickle.addEventListener('click' , function() {
     toolMode = 4;
-    // console.log("Tool mode is set to 'Hoe' (0).")
+    window.alert("Tool selected: sickle");
     console.log(toolMode);
 });
 
