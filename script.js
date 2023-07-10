@@ -994,7 +994,7 @@ const winCondition = function() {
 
 //Create intervals for mushroomOpportunity, decreaseMushroomAggro, loseCondition, and winCondition
 
-let mushOppInvl = setInterval(mushroomOpportunity, 4000);
+let mushOppInvl = setInterval(mushroomOpportunity, 5000);
 
 const decrMushAggrInvl = setInterval(decreaseMushroomAggro, 500)
 
