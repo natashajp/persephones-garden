@@ -30,9 +30,7 @@ The game functionality was inspired by our Save the Universe mini project as wel
 
 Unsolved issues:
 
-There are no working validation checks in the game. I tried implementing them with a tileMode variable but it got out of hand. It think it should work with RegEx, however.
-
-The decreaseMushroomAggro function might be too minimal to be useful. Decrementing mushroomAggro by .1 is too helpful, but -.001 doesn't feel helpful enough. Perhaps -.01.
+As of 7/10/23 2:17PM, there are validation checks but there's no way to change the tileMode[x] variables when a mushroom spawns so the player can use the pesticide on everything at any time. There's not incentive to, however, because it would add a step (needing to get rid of the dead mushroom).
 
 The credits page exists but is orphaned.
 
@@ -41,6 +39,8 @@ Stretch goals:
 Difficulty modes: the game is beatable down to the mushroom spawn opportunity occuring every 3 seconds so I'd like to set difficulty mode (5 secs. = easy; 4 secs. = normal; 3 secs. = hard). I'd like to have one or two higher difficulty modes, which would mean changing the flowerFreq and mushroomFreq variables a bit.
 
 A start screen, tutorial, and restart button
+
+Change cursor to currently selected tool
 
 Styling
 
